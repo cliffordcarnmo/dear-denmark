@@ -1,6 +1,9 @@
 # dear-denmark
 A PC demoscene partyproduction released at TRSAC 2013.
 Mainly coded on the ferry to Denmark and at the party.
+
+Built using GCC/MinGW and Eclipse CDT on Windows 7.
+
 ~~~
          ______        ___     ___ 
     _____\___  |____  |   |___|   |     
