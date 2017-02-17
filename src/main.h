@@ -1,0 +1,28 @@
+#pragma once
+
+//#define VERBOSE
+#define FULLSCREEN
+#define MUSIC
+
+#define PRODNAME "Relapse - Dear Denmark"
+
+#define REFRESHRATE 60
+
+#ifdef FULLSCREEN
+	#define WIDTH 1280
+	#define HEIGHT 720
+	#define SCREENMODE GLFW_FULLSCREEN
+	#define WINDOWHINTS GLFW_REFRESH_RATE, REFRESHRATE
+	#define SCREENMODE GLFW_FULLSCREEN
+#else
+	#define WIDTH 640
+	#define HEIGHT 360
+	#define WINDOWHINTS GLFW_WINDOW_NO_RESIZE, GL_TRUE
+	#define SCREENMODE GLFW_WINDOW
+#endif
+
+#define MAXRUNNINGTIME 300.0
+
+#define SYNCTYPE BASS_SYNC_MUSICFX
+#define SYNCLOW 1
+#define SYNCHIGH -1
